@@ -3,7 +3,7 @@
 
 ![sass web page design](https://github.com/kaplanh/Travel_Web_Page_with-sass/assets/101884444/b64e561a-8161-438a-b4c5-06a1933f3d6e)
 
-[Live Link](https://kaplanh.github.io/Travel_Web_Page_with-sass/)
+[Live Link](https://kaplanh.github.io/Sass-Website-Page-Design/)
 ## Description
 
 Project aims to create website site using sass.
