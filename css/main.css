@@ -133,7 +133,6 @@
   cursor: pointer;
   border-bottom: 5px solid #ff652f;
   position: relative;
-  width: 33%;
 }
 .projects__item img {
   width: 100%;
@@ -235,6 +234,13 @@ footer.middle {
   .nav .nav__link {
     font-size: 0.9rem;
   }
+  footer.horizontal {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 5px;
+    padding: 1rem;
+  }
   .contact h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
@@ -274,7 +280,7 @@ footer.middle {
     font-size: 1.3rem;
   }
   .projects__item {
-    width: 100%;
+    width: 50%;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -285,7 +291,7 @@ footer.middle {
     font-size: 1.5rem;
   }
   .projects__item {
-    width: 50%;
+    width: 33%;
   }
   .contact__list {
     flex-direction: row;
