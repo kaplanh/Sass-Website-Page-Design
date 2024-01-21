@@ -4,88 +4,102 @@
 
 @include media-xsm {
     .nav {
-      padding: 0.5rem;
-      &__list {
-        text-align: center;
-      }
-      &__item {
-        padding-right: 0.7rem;
-      }
-      .nav__link {
-        font-size: 0.9rem;
-      }
+        padding: 0.5rem;
+        &__list {
+            text-align: center;
+        }
+        &__item {
+            padding-right: 0.7rem;
+        }
+        .nav__link {
+            font-size: 0.9rem;
+        }
+    }
+    footer.horizontal {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        row-gap: 5px;
+        padding: 1rem;
+        @extend .link-style;
+    }
+    
+
+    .contact {
+        h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+        &__list {
+            gap: 2rem 1.2rem;
+            font-size: 1.2rem;
+        }
+    }
+}
+@include media-sm {
+    .nav {
+        padding: 0.7rem;
+        &__list {
+            text-align: right;
+        }
+        &__item {
+            padding-right: 1rem;
+        }
+        .nav__link {
+            font-size: 1rem;
+        }
     }
     .contact {
-      h2 {
-        font-size: 2rem;
-        margin-bottom: 1rem;
-      }
-      &__list {
-        gap: 2rem 1.2rem;
-        font-size: 1.2rem;
-      }
+        h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+        }
+        &__list {
+            gap: 2.5rem 2rem;
+            font-size: 1.5rem;
+        }
     }
-  }
-  @include media-sm {
+}
+
+@include media-md {
     .nav {
-      padding: 0.7rem;
-      &__list {
-        text-align: right;
-      }
-      &__item {
-        padding-right: 1rem;
-      }
-      .nav__link {
-        font-size: 1rem;
-      }
-    }
-    .contact {
-      h2 {
-        font-size: 2.5rem;
-        margin-bottom: 1.5rem;
-      }
-      &__list {
-        gap: 2.5rem 2rem;
-        font-size: 1.5rem;
-      }
-    }
-  }
-  
-  @include media-md {
-    .nav {
-      &__item {
-        padding-right: 1.3rem;
-      }
-      .nav__link {
-        font-size: 1.3rem;
-      }
+        &__item {
+            padding-right: 1.3rem;
+        }
+        .nav__link {
+            font-size: 1.3rem;
+        }
     }
     .projects__item {
-      width: 100%;
+        width: 50%;
     }
-  }
-  
-  @include media-lg {
+    
+}
+
+@include media-lg {
     .nav {
-      &__item {
-        padding-right: 1.5rem;
-      }
-      .nav__link {
-        font-size: 1.5rem;
-      }
+        &__item {
+            padding-right: 1.5rem;
+        }
+        .nav__link {
+            font-size: 1.5rem;
+        }
     }
-  
+
     .projects__item {
-      width: 50%;
+        width: 33%;
     }
     .contact__list {
-      flex-direction: row;
+        flex-direction: row;
     }
-  }
-  
-  @include media-xl {
+
+    
+   
+    
+}
+
+@include media-xl {
     .projects__item {
-      width: 33%;
+        width: 33%;
     }
-  }
-  
+}
