@@ -1,7 +1,7 @@
-#  Sass Web Page Design
+#  Sass Portfolio
 
 
-![sass web page design](https://github.com/kaplanh/Travel_Web_Page_with-sass/assets/101884444/b64e561a-8161-438a-b4c5-06a1933f3d6e)
+![sass portfolio](https://github.com/kaplanh/Sass-Website-Page-Design/assets/101884444/ed8894fe-494b-4c20-9d52-f58c02965ad7)
 
 [Live Link](https://kaplanh.github.io/Sass-Website-Page-Design/)
 ## Description
@@ -10,7 +10,7 @@ Project aims to create website site using sass.
 
 ## Problem Statement
 
-- Your company has recently started on a project that aims to create a company website page. So you and your colleagues have started to work on the project.
+- Your company has recently started on a project that aims to create a portfolio website page. So you and your colleagues have started to work on the project.
 
 # npm install -g sass
 # sass --version
@@ -56,14 +56,12 @@ Ma
 - HTML 
 
 - CSS
-
-- Js
+- -@media Query
 
 - Sass / Scss
 
 - font awesome
 
-- Google fonts
 
 ### At the end of the project, developers will be able to;
 
