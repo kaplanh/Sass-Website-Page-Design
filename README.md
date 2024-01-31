@@ -3,7 +3,7 @@
 
 ![sass portfolio](https://github.com/kaplanh/Sass-Website-Page-Design/assets/101884444/ed8894fe-494b-4c20-9d52-f58c02965ad7)
 
-[Live Link](https://kaplanh.github.io/Sass-Website-Page-Design/)
+[Live Link](https://kaplanh.github.io/Sass-portfolio-web-page/)
 ## Description
 
 Project aims to create website site using sass.
